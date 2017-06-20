@@ -1,0 +1,4 @@
+#!/bin/bash
+cd ~/RetroPie-Setup
+sudo ./retropie_setup.sh
+clear

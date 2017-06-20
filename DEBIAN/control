@@ -1,0 +1,9 @@
+Package: es-pipplware
+Version: 6.0-3
+Architecture: all
+Maintainer: Diogo Santos <diogomsantos@hotmail.com>
+Installed-Size: 26
+Section: pipplware
+Priority: extra
+Homepage: http://pipplware.pplware.pt/
+Description: Emulation Station for Pipplware

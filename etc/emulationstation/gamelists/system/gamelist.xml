@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>/etc/emulationstation/pipplware-menus/system/Backup Settings.sh</path>
+		<name>Backup Settings</name>
+		<desc>Creates a Backup off all your settings, configurations and personal files. This option is highly recommended for new installations and from time to time. The Backup (PI_BACKUP.tar) will be created in an USB storage device, if theres one connected, otherwise it will be created in /home/pi. Depending in the contents of your home dir, some free space is required so check if the Backup was sucessefull.</desc>
+		<image>/etc/emulationstation/pipplware-menus/system/Backup Settings.png</image>
+		<releasedate>2014</releasedate>
+		<developer>D.S. / Nuno Senica</developer>
+		<publisher>Pplware</publisher>
+		<genre>Shell script</genre>
+	</game>
+	<game>
+		<path>/etc/emulationstation/pipplware-menus/system/Change Boot.sh</path>
+		<name>Change Boot</name>
+		<desc>Program to change the system boot behaviour, the same as "sudo bootmenu". It changes the graphical interface the system boots by default, everytime. You can choose to boot to ES, KODI, XFCE and Terminal. Usefull to set the system according to the users type of use of the Raspberry Pi.</desc>
+		<image>/etc/emulationstation/pipplware-menus/system/Change Boot.png</image>
+		<releasedate>20140326T000000</releasedate>
+		<developer>Diogo Santos</developer>
+		<publisher>Pplware</publisher>
+		<genre>Shell program</genre>
+	</game>
+	<game>
+		<path>/etc/emulationstation/pipplware-menus/system/PiPplware Tools.sh</path>
+		<name>PiPplware Tools</name>
+		<desc>Some PiPplware specific tools to configure your setup. Here you can update RetroPie, select the aspect ratio of your screen, where to load ROMS from, install additional software, etc.</desc>
+		<image>/etc/emulationstation/pipplware-menus/system/PiPplware Tools.png</image>
+		<releasedate>20151023T000000</releasedate>
+		<developer>D.S. / Andre Lopes</developer>
+		<publisher>Pplware</publisher>
+		<genre>Shell program</genre>
+	</game>
+	<game>
+		<path>/etc/emulationstation/pipplware-menus/system/Enable - Disable Services.sh</path>
+		<name>Enable/Disable Services</name>
+		<desc>Opens "serman" or "rcconf", two simple dialog-based service managers for systemd and SysVinit respectively. It provides an easy way to manage services with an overview of what is currently enabled. WARNING: Use with care, some enabled services are required for normal system operation!</desc>
+		<image>/etc/emulationstation/pipplware-menus/system/Enable - Disable Services.png</image>
+		<releasedate>20050114T000000</releasedate>
+		<developer>Xyne / A. Kamoshida</developer>
+		<publisher>None</publisher>
+		<genre>Command Line utility</genre>
+	</game>
+	<game>
+		<path>/etc/emulationstation/pipplware-menus/system/Export ROMs to USB.sh</path>
+		<name>Export ROMs to USB</name>
+		<desc>This option copies all your ROMs, BIOS, SAVES and CONFIGS from emulators to an USB storage device. It will create one folder with the name "RetroPie" with the same folder structure of the RetroPie instalation. Usefull if you have a lot of ROMs and want to play them from one USB device.</desc>
+		<image>/etc/emulationstation/pipplware-menus/system/Export ROMs to USB.png</image>
+		<releasedate>2014</releasedate>
+		<developer>D.S. / Luiz Carvalho</developer>
+		<publisher>Pplware</publisher>
+		<genre>Shell script</genre>
+	</game>
+	<game>
+		<path>/etc/emulationstation/pipplware-menus/system/Import ROMs to SD Card.sh</path>
+		<name>Import ROMs to SD Card</name>
+		<desc>This option copies all your ROMs, BIOS, SAVES and CONFIGS from emulators in an USB storage device back to the SD card. It is the reverse operation of "Export ROMs to USB" so you need to run it first.</desc>
+		<image>/etc/emulationstation/pipplware-menus/system/Import ROMs to SD Card.png</image>
+		<releasedate>2014</releasedate>
+		<developer>D.S. / Luiz Carvalho</developer>
+		<publisher>Pplware</publisher>
+		<genre>Shell script</genre>
+	</game>
+	<game>
+		<path>/etc/emulationstation/pipplware-menus/system/Raspberry Pi Configuration.sh</path>
+		<name>Raspberry Pi Configuration</name>
+		<desc>Runs "raspi-config", a program to set some Raspbian and GLOBAL System definitions. Here You can configure your user password, hostname, global system language, timezone and keyboard layout. Can also enable/disable overscan, overclock, modules, among other things. Some options may need a keyboard. WARNING: Some wrong settings may break your system!</desc>
+		<image>/etc/emulationstation/pipplware-menus/system/Raspberry Pi Configuration.png</image>
+		<releasedate>20120617T000000</releasedate>
+		<developer>Alex Bradbury</developer>
+		<publisher>Raspberry Pi Foundation</publisher>
+		<genre>Command Line utility</genre>
+	</game>
+	<game>
+		<path>/etc/emulationstation/pipplware-menus/system/Restore Settings.sh</path>
+		<name>Restore Settings</name>
+		<desc>Restores a Backup, previously made with "Backup Settings". The Backup (PI_BACKUP.tar) used will be the one in an USB storage device, if theres one connected, otherwise it will try to restore one in /home/pi if it exists. Depending in the contents of your Backup, some free space is required so check if the Restore operation was sucessefull.</desc>
+		<image>/etc/emulationstation/pipplware-menus/system/Restore Settings.png</image>
+		<releasedate>2014</releasedate>
+		<developer>D.S. / Nuno Senica </developer>
+		<publisher>Pplware</publisher>
+		<genre>Shell script</genre>
+	</game>
+	<game>
+		<path>/etc/emulationstation/pipplware-menus/system/RetroPie Configuration.sh</path>
+		<name>RetroPie Configuration</name>
+		<desc>Opens the RetroPie Configuration menu where you can update RetroPie Setup script and the RetroPie itself. You can also install/configure controllers/joysticks and other advanced RetroPie related stuff. Some options may need a keyboard. WARNING: Some options may break your system!</desc>
+		<image>/etc/emulationstation/pipplware-menus/system/RetroPie Configuration.png</image>
+		<releasedate>20130714T00000000</releasedate>
+		<developer>F. Muller / J. Wills</developer>
+		<publisher>RetroPie</publisher>
+		<genre>Command Line utility</genre>
+	</game>
+	<game>
+		<path>/etc/emulationstation/pipplware-menus/system/Update System.sh</path>
+		<name>Update System</name>
+		<desc>Updates all Pipplware System with the exception off RetroPie binaries. The same as "sudo update-system".</desc>
+		<image>/etc/emulationstation/pipplware-menus/system/Update System.png</image>
+		<releasedate>20140625T000000</releasedate>
+		<developer>D.S / Tiago Dias</developer>
+		<publisher>Pplware</publisher>
+		<genre>Shell script</genre>
+	</game>
+</gameList>

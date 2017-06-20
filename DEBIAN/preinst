@@ -1,0 +1,6 @@
+#!/bin/sh
+
+chattr -i /usr/bin/emulationstation
+
+exit 0
+

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>/etc/emulationstation/pipplware-menus/pipplware/KODI.sh</path>
+		<name>KODI</name>
+		<desc>KODI is a media player and entertainment hub. It allows users to play and view most videos, music, podcasts, and other digital media files from local and network storage media and the internet.</desc>
+		<image>/etc/emulationstation/pipplware-menus/pipplware/KODI.png</image>
+		<rating></rating>
+		<releasedate>2002</releasedate>
+		<developer>Team Kodi / Team XBMC</developer>
+		<publisher>XBMC Foundation</publisher>
+		<genre>Media Center</genre>
+	</game>
+	<game>
+		<path>/etc/emulationstation/pipplware-menus/pipplware/Midnight Commander.sh</path>
+		<name>Midnight Commander</name>
+		<desc>Midnight Commander is a cross-platform file manager. It's a feature rich full-screen text mode application that allows you to copy, move and delete files and whole directory trees, search for files and run commands in the subshell. Internal viewer and editor are included. Keyboard required.</desc>
+		<image>/etc/emulationstation/pipplware-menus/pipplware/Midnight Commander.png</image>
+		<rating></rating>
+		<releasedate>1994</releasedate>
+		<developer>Miguel de Icaza/Multiple</developer>
+		<publisher>midnight-commander.org</publisher>
+		<genre>File Manager</genre>
+	</game>
+	<game>
+		<path>/etc/emulationstation/pipplware-menus/pipplware/Openbox.sh</path>
+		<name>Openbox</name>
+		<desc>Openbox is a stacking window manager for the X Window System, the standard WM in LXDE. Openbox is designed to be very small, fast, low on RAM and is the best option for web browsing.</desc>
+		<image>/etc/emulationstation/pipplware-menus/pipplware/Openbox.png</image>
+		<rating></rating>
+		<releasedate>2002</releasedate>
+		<developer>Dana Jansens</developer>
+		<publisher>None</publisher>
+		<genre>Window Manager</genre>
+	</game>
+	<game>
+		<path>/etc/emulationstation/pipplware-menus/pipplware/XFCE.sh</path>
+		<name>XFCE</name>
+		<desc>Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.</desc>
+		<image>/etc/emulationstation/pipplware-menus/pipplware/XFCE.png</image>
+		<rating></rating>
+		<releasedate>1996</releasedate>
+		<developer>Olivier Fourdan/Multiple</developer>
+		<publisher>None</publisher>
+		<genre>Desktop Environment</genre>
+	</game>
+</gameList>
